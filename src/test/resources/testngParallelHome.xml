@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parallel Suite" parallel="classes" thread-count="2">
+    <test name="Parallel test">
+        <classes>
+            <class name="pl.traineeship.autoqa.lesson11.parallelismus.ParallelClass1"/>
+            <class name="pl.traineeship.autoqa.lesson11.parallelismus.ParallelClass2"/>
+        </classes>
+    </test>
+</suite>

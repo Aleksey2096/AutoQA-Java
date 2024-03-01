@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Groups Suite">
+
+    <test name="First group test">
+        <groups>
+            <run>
+                <include name = "first"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="pl.traineeship.autoqa.lesson11.grouping.Groups"/>
+        </classes>
+    </test>
+    <test name="Second group test">
+        <groups>
+            <run>
+                <include name = "second"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="pl.traineeship.autoqa.lesson11.grouping.Groups"/>
+        </classes>
+    </test>
+</suite>

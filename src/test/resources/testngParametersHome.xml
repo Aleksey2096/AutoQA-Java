@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parameters Suite">
+
+	<test name="First set of parameters">
+		<parameter name="email" value="test_email1@gmail.com" />
+		<parameter name="password" value="test_password1" />
+		<classes>
+			<class name="pl.traineeship.autoqa.lesson11.LoginParametersTest" />
+		</classes>
+	</test>
+
+	<test name="Second set of parameters">
+		<parameter name="email" value="test_email2@gmail.com" />
+		<parameter name="password" value="test_password2" />
+		<classes>
+			<class name="pl.traineeship.autoqa.lesson11.LoginParametersTest" />
+		</classes>
+	</test>
+
+	<test name="Third set of parameters">
+		<parameter name="email" value="test_email3@gmail.com" />
+		<parameter name="password" value="test_password3" />
+		<classes>
+			<class name="pl.traineeship.autoqa.lesson11.LoginParametersTest" />
+		</classes>
+	</test>
+</suite>
