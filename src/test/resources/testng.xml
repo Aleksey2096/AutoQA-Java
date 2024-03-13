@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AllTests Suite">
+    <test name="AllTests">
+        <classes>
+        	<class name="pl.traineeship.autoqa.lesson14.task1.page.AndersenHomePageTest"/>
+            <class name="pl.traineeship.autoqa.lesson14.task1.AutomationScriptTest"/>
+            <class name="pl.traineeship.autoqa.lesson14.task1.page.RegistrationPageTest"/>
+            <class name="pl.traineeship.autoqa.lesson14.task2.page.EditAccountPageTest"/>
+            <class name="pl.traineeship.autoqa.lesson14.task2.page.LoginPageTest"/>
+            <class name="pl.traineeship.autoqa.lesson14.task2.page.RegistrationPageTest"/>
+        </classes>
+    </test>
+</suite>
